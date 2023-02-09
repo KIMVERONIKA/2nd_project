@@ -10,6 +10,7 @@ Alexa is a virtual assistant that works in a similar way to popular apps like Si
 5. We do lemmatizer(Grouping different forms of words)
 6. Train the model and Evaluating the model use Random Forest Classifier, Decision Tree Classifier, Support Vector Classifier, KNeighbors Classifier.
     We made 16 model for training:
+    
     1 KNeighbors Classifier cv lem      
     2 Support Vector Classifier cv tfidf lem     
     3 KNeighbors Classifier cv    
