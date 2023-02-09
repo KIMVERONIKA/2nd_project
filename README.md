@@ -10,22 +10,22 @@ Alexa is a virtual assistant that works in a similar way to popular apps like Si
 5. We do lemmatizer(Grouping different forms of words)
 6. Train the model and Evaluating the model use Random Forest Classifier, Decision Tree Classifier, Support Vector Classifier, KNeighbors Classifier.
     We made 16 model for training:
-             KNeighbors Classifier cv lem  1    
-   Support Vector Classifier cv tfidf lem  2   
-                 KNeighbors Classifier cv  3   
-       KNeighbors Classifier cv tfidf lem  4 
-       Support Vector Classifier cv tfidf  5 
-           KNeighbors Classifier cv tfidf  6
-                   Random Forest cv tfidf  7   
-               Random Forest cv tfidf lem  8   
-                     Random Forest cv lem  9  
-                         Random Forest cv 10 
-         Support Vector Classifier cv lem 11  
-             Support Vector Classifier cv 12
-    Decision Tree Classifier cv tfidf lem 13  
-        Decision Tree Classifier cv tfidf 14
-              Decision Tree Classifier cv 15 
-          Decision Tree Classifier cv lem 16
+    1 KNeighbors Classifier cv lem      
+    2 Support Vector Classifier cv tfidf lem     
+    3 KNeighbors Classifier cv    
+    4 KNeighbors Classifier cv tfidf lem   
+    5 Support Vector Classifier cv tfidf   
+    6 KNeighbors Classifier cv tfidf  
+    7 Random Forest cv tfidf     
+    8 Random Forest cv tfidf lem     
+    9 Random Forest cv lem    
+    10 Random Forest cv 
+    11 Support Vector Classifier cv lem  
+    12 Support Vector Classifier cv 
+    13 Decision Tree Classifier cv tfidf lem  
+    14 Decision Tree Classifier cv tfidf 
+    15 Decision Tree Classifier cv  
+    16 Decision Tree Classifier cv lem
 
 Conclusion: The best models 11 is Support Vector Classifier Convectorizer Lematization has accuracy from train set 99% and the accuracy from test set 93%.
 Decision Tree Classifier Convectorizer Lematization has precision from train set 99% and from test set 94%.
