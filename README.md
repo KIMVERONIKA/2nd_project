@@ -1,4 +1,5 @@
-# The second team project. Data-Analysis-Amazon Alexa Reviews
+# The 2nd team project. Data-Analysis-Amazon Alexa Reviews
+
 Alexa is a virtual assistant that works in a similar way to popular apps like Siri or Google Now. In other words, Amazon Alexa is an assistant that responds to voice commands and performs user tasks.
 3000 reviews. Date of review, variant and feedback of various amazon Alexa products like Alexa Echo, Echo dots, Alexa Firesticks etc. The goal is to create a model that determines negative or positive feedback.
 
