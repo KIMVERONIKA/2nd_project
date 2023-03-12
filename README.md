@@ -1,17 +1,19 @@
 # The 2nd team project. Data-Analysis-Amazon Alexa Reviews
 
-Alexa is a virtual assistant that works in a similar way to popular apps like Siri or Google Now. In other words, Amazon Alexa is an assistant that responds to voice commands and performs user tasks.
-3000 reviews. Date of review, variant and feedback of various amazon Alexa products like Alexa Echo, Echo dots, Alexa Firesticks etc. The goal is to create a model that determines negative or positive feedback.
+## Objective/Goal
+The goal is to create a model that determines negative or positive feedback.
 
-0. Step we load the libraries
-1. Step we upload dataset
-2. We make visualization of the dataset
-3. Showing Word Cloud Alexa 
-4. We cleaning data, drop variables
-5. We do lemmatizer(Grouping different forms of words)
-6. Train the model and Evaluating the model use Random Forest Classifier, Decision Tree Classifier, Support Vector Classifier, KNeighbors Classifier.
-    We made 16 model for training:
+## Role
+We worked independently for 1 month for our 2nd team project to extract, clean, analyze, visualize, create model with diffrent classifier and fit the models.
+
+## Data
+This dataset consists of a nearly 3000 Amazon customer reviews (input text), star ratings, date of review, variant and feedback of various amazon Alexa products like Alexa Echo, Echo dots, Alexa Firesticks etc. for learning how to train Machine for sentiment analysis.
+
+##Tools Used
+Stopwords, wordcloud, Pipeline, CountVectorizer, TfidfTransformer, GridSearchCV, lemmatizer(Grouping different forms of words)
     
+ ## Models Used
+ We made 16 model for training:
     1 KNeighbors Classifier cv lem      
     2 Support Vector Classifier cv tfidf lem     
     3 KNeighbors Classifier cv    
@@ -28,6 +30,10 @@ Alexa is a virtual assistant that works in a similar way to popular apps like Si
     14 Decision Tree Classifier cv tfidf 
     15 Decision Tree Classifier cv  
     16 Decision Tree Classifier cv lem
+    
+## Code
+Code for this project can be found here: https://github.com/KIMVERONIKA/Amazon_Alexa/blob/main/27_10_2022_Veronika_amazon_alexa_review_classification.ipynb
 
-Conclusion: The best models 11 is Support Vector Classifier Convectorizer Lematization has accuracy from train set 99% and the accuracy from test set 93%.
+## Results
+The best models 11 is Support Vector Classifier Convectorizer Lematization has accuracy from train set 99% and the accuracy from test set 93%.
 Decision Tree Classifier Convectorizer Lematization has precision from train set 99% and from test set 94%.
